@@ -9,6 +9,7 @@ package Hogar;
  *
  * @author paqui
  */
+/** aplicación para la venta de una vivienda*/
 public class Vivienda {
 
     public Vivienda(double precio, int numHabitaciones, double superficie, boolean parking, String estado, String propietario) {
@@ -19,10 +20,12 @@ public class Vivienda {
         this.estado = estado;
         this.propietario = propietario;
     }
-
+ 
     /**
      * @return the precio
+     * 
      */
+   
     public double getPrecio() {
         return precio;
     }
